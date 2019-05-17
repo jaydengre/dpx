@@ -83,6 +83,7 @@ services:
       replicas: 1
     ports:
       - "8088:8085"
+      - "443:443"
     volumes:
       - "./opt-apigateway:/opt"
     networks:
